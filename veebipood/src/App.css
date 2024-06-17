@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.pilt {
+  width: 100px;
+  /* height: 100px; */
+}
+
+.pilt:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.pilt:active {
+  transform: scale(0.95);
+}
+
+.keskus-aktiivne {
+  color: purple;
+  text-decoration: underline;
+}
