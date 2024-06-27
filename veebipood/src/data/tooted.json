@@ -1,0 +1,6 @@
+[
+  {"nimi": "Nobe", "hind": 25000, "aktiivne": true, "pilt": "https://cimg0.ibsrv.net/ibimg/hgm/2000x1125-1/100/653/estonian-nobe-concept_100653636.jpg"},
+  {"nimi": "Tesla S", "hind": 85000, "aktiivne": false, "pilt": "https://cdn.motor1.com/images/mgl/Mk3qg6/s3/2017-tesla-roadster-deck-model-petersen-automotive-museum.jpg"},
+  {"nimi": "Toyota", "hind": 75000, "aktiivne": true, "pilt": "https://cdn.motor1.com/images/mgl/Mk3qg6/s3/2017-tesla-roadster-deck-model-petersen-automotive-museum.jpg"},
+  {"nimi": "BMW", "hind": 55000, "aktiivne": true, "pilt": "https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m850i-xdrive-cabrio-flyout-neu.png"}
+]

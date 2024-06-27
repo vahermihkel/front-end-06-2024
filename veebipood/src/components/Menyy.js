@@ -27,6 +27,14 @@ function Menyy() {
       <Link to="/kinkekaardid">
         <button>Kinkekaardid</button>
       </Link>
+
+      <Link to="/poed">
+        <button>Meie poed</button>
+      </Link>
+
+      <Link to="/kontakteeru-meiega">
+        <button>Kontakteeru meiega</button>
+      </Link>
     </div>
   )
 }

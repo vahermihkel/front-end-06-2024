@@ -4,6 +4,8 @@ function Kinkekaart() {
   const [kogus, setKogus] = useState(1);
   const [sonum, setSonum] = useState("Suurenda kogust!");
 
+  console.log("Re-renderdan");
+
   function vahenda() {
     setKogus(kogus - 1);
     setSonum("Vähendasid kogust!");
