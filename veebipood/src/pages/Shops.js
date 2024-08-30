@@ -12,7 +12,7 @@ function Shops() {
     <button onClick={() => setCoordinates({lngLat: [59.4231, 24.7991], zoom: 13})}>Ülemiste</button>
     <button onClick={() => setCoordinates({lngLat: [59.4277, 24.7193], zoom: 13})}>Kristiine</button>
     <button onClick={() => setCoordinates({lngLat: [58.3779, 26.7304], zoom: 13})}>Tasku</button>
-    <Map mapCoordinaates={coordinaates}  />
+    {/* <Map mapCoordinaates={coordinaates}  /> */}
   </div>)
 }
 

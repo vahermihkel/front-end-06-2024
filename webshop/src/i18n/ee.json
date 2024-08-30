@@ -1,0 +1,16 @@
+{
+    "maintain-categories": "Halda kategooria",
+    "maintain-shops": "Halda poode",
+    "add-product": "Lisa toode",
+    "maintain-products": "Halda tooteid",
+    "supplier": "Tarnija",
+    "book-supplier": "Raamatute tarnija",
+    "nav": {
+        "admin": "Admin",
+        "contact": "Kontakteeru",
+        "shops": "Meie poed",
+        "cart": "Ostukorv",
+        "login": "Logi sisse",
+        "signup": "Registreeru"
+    }
+}

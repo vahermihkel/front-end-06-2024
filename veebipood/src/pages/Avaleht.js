@@ -7,7 +7,10 @@ function Avaleht() {
   const [tooted, setTooted] = useState(tootedJSON.slice());
 
   const lisaOstukorvi = (toode) => {
-    ostukorvJSON.push(toode);
+    // ostukorvJSON.push(toode);
+    const ostukorvLS = JSON.parse(localStorage.getItem("ostukorv") || "[]");
+    ostukorvLS.push(toode);
+    localStorage.setItem("ostukorv", JSON.stringify(ostukorvLS));
   }
 
   const sorteeriAZ = () => {

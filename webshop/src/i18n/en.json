@@ -1,0 +1,16 @@
+{
+    "maintain-categories": "Maintain categories",
+    "maintain-shops": "Maintain shops",
+    "add-product": "Add product",
+    "maintain-products": "Maintain products",
+    "supplier": "Supplier",
+    "book-supplier": "Book supplier",
+    "nav": {
+        "admin": "Admin",
+        "contact": "Contact us",
+        "shops": "Shops",
+        "cart": "Cart",
+        "login": "Login",
+        "signup": "Sign up"
+    }
+}

@@ -1,0 +1,50 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.title {
+  width: 200px;
+}
+
+.price {
+  width: 70px;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+}
+
+.quantity {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  height: 40px;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.total {
+  width: 70px;
+}
+
+@media screen and (max-width: 580px) {
+  .image {
+    width: 60px;
+    height: 60px;
+  }
+  .title {
+    width: 150px;
+    font-size: 12px;
+  }
+}

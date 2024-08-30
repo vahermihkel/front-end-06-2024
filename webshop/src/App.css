@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+	margin: 40px 0 30px 0;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* margin-bottom: 40px; */
+	border: 1px solid lightgray;
+	padding: 10px;
+}
+
+.product img {
+	transition: 1s;
+}
+
+.product:hover img {
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.products {
+	display: grid;
+	grid-auto-rows: 1fr;
+	grid-template-columns: auto auto auto;
+}
+
+.single-product img {
+	max-width: 300px;
+}
+
+.single-product {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.login-form, .signup-form {
+	text-align: left;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+table {
+  margin: 3%;
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+.image {
+	max-width: 100px;
+	width: 100%;
+	object-fit: contain;
+}
+
+.lang {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.lang:hover {
+  opacity: 0,7;
+  cursor: pointer;
+}
+
+.lang:active {
+  padding: 1px;
+}
+
+.map {
+  height: 300px;
+  margin: 3%;
+  border-radius: 10px;
+}
+
+.carousel {
+	width: 620px;
+	margin: auto;
+}
